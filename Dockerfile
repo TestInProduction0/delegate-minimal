@@ -19,6 +19,6 @@ RUN \
   unzip terraform_${TERRAFORM_VERSION}_${TERRAFORM_ARCH}.zip; \
   mv ./terraform /usr/bin/ && \
   chmod +x /usr/bin/terraform; \
-  terraform --version
+  terraform --version;
 ​
 USER 1001
