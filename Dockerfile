@@ -1,5 +1,5 @@
 ARG IMAGE=delegate-immutable
-ARG TAG=22.12.77617
+ARG TAG=latest
 FROM harness/$IMAGE:$TAG
 ARG TERRAFORM_VERSION=1.3.6
 ARG TERRAFORM_ARCH=linux_amd64
