@@ -1,4 +1,4 @@
-ARG IMAGE=delegate-immutable
+ARG IMAGE=delegate
 ARG TAG=23.04.79107.minimal
 FROM harness/$IMAGE:$TAG
 ARG TERRAFORM_VERSION=1.3.6
